@@ -6,6 +6,7 @@
      --prgrf: #F4F4FD;
      --white: #FFFFFF;
      --darkblue: #404BBF;
+     --headerclr: #e7e9fc;
  }
 
  body {
@@ -16,6 +17,26 @@
 
 img{
     display: block;
+}
+
+.page-header{
+    border-bottom: 1px solid var(--headerclr);
+}
+
+.header-content{
+    display: flex;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    
 }
 
 .list {

@@ -36,7 +36,22 @@ img{
 .header-nav{
     display: flex;
     align-items: center;
-    
+
+}
+
+.logo link{
+    margin-right: 76px;
+}
+
+.nav-btn link{
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.address-cnt{
+    display: flex;
+    gap: 40px;
 }
 
 .list {

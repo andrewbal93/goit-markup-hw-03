@@ -9,6 +9,10 @@
      --headerclr: #e7e9fc;
  }
 
+.visually-hidden{
+    visibility: hidden;
+}
+
  body {
      font-family: Roboto, sans-serif;
      color: var(--slate);
@@ -115,6 +119,14 @@ img{
 .sct-one-hero-btn:focus{
     background-color: var(--darkblue);
  }
+
+.sct-two{
+    padding: 120px 0;
+}
+
+.sct-two-list{
+    
+}
 
 .sct-two-ttl{
     font-weight: 500;

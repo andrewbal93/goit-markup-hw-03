@@ -35,6 +35,7 @@ img{
 
 .list {
      list-style: none;
+    padding-inline-start: 0;
  }
 
 .link {
@@ -323,7 +324,6 @@ img{
      column-gap: 24px;
      row-gap: 48px;
      justify-content: center;
-     padding-inline-start: 0;
  }
 
  .portfolio-projects-li {

@@ -213,14 +213,18 @@ img{
      padding: 120px 0;
  }
 
- .sct_four-ttl {
+ .sct_four-mainttl {
      font-size: 36px;
      line-height: 1.11;
      text-align: center;
      letter-spacing: 0.02em;
      text-transform: capitalize;
      color: var(--navy-blue);
-     margin-bottom: 72px;
+     
+ }
+
+ .sct_four-ttl {
+    margin-bottom: 8px;
  }
 
  .sct_four-list {

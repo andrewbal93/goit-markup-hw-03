@@ -39,7 +39,7 @@ img{
     align-items: center;
 }
 
-.nav-btn link{
+.nav-btn{
     padding: 24px 0;
 }
 
@@ -81,20 +81,21 @@ img{
     gap: 40px;
  }
 
-.sct-two-hero{
+.sct-one-hero{
     background-color: var(--navy-blue);
     padding: 188px 0;
  }
 
-.sct-two-hero-title{
+.sct-one-hero-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
+    max-width: 496px;
  }
 
-.sct-two-hero-btn{
+.sct-one-hero-btn{
     background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -103,10 +104,15 @@ img{
     letter-spacing: 0.04em;
     color: var(--white);
     cursor: pointer;
- }
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
 
-.sct-two-hero-btn:hover,
-.sct-two-hero-btn:focus{
+.sct-one-hero-btn:hover,
+.sct-one-hero-btn:focus{
     background-color: var(--darkblue);
  }
 

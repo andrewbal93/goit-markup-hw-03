@@ -220,10 +220,11 @@ img{
      letter-spacing: 0.02em;
      text-transform: capitalize;
      color: var(--navy-blue);
-     
+     margin-bottom: 72px;
  }
 
  .sct_four-ttl {
+    text-align: center;
     margin-bottom: 8px;
  }
 

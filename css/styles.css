@@ -129,7 +129,7 @@ img{
     gap: 24px;
 }
 
-.sct-two-list_li{
+.sct-two-list-li{
     width: calc((100% - 72px) / 4);
 }
 

@@ -148,6 +148,10 @@ img{
     color: var(--slate);
  }
 
+.sct-three{
+    padding-bottom: 120px;
+ }
+
 .sct-three-ttl{
     font-size: 36px;
     line-height: 1.11;
@@ -155,6 +159,16 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+    margin-bottom: 72px;
+ }
+
+ .sct-three-list{
+    display: flex;
+    gap: 24px;
+ }
+
+ .sct-three-list-li{
+    width: calc((100% - 48px) / 3);
  }
 
 .sct-four{

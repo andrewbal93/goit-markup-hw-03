@@ -188,6 +188,12 @@ img{
 
 .sct_four-list{
     background-color: var(--white);
+    display: flex;
+    gap: 24px;
+ }
+
+ .sct_four-list-li{
+    width: calc((100% - 72px) / 4);
  }
 
 .footer-sct {

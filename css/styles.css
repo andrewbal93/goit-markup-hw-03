@@ -130,7 +130,7 @@ img{
 }
 
 .sct-two-list_li{
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .sct-two-ttl{

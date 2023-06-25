@@ -183,6 +183,9 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+ }
+
+ .sct_four-ttl{
     margin-bottom: 72px;
  }
 

@@ -25,6 +25,7 @@ img{
 
 .header-content{
     display: flex;
+    justify-content: space-between;
 }
 
 .container{
@@ -36,20 +37,13 @@ img{
 .header-nav{
     display: flex;
     align-items: center;
-
-}
-
-.logo link{
-    margin-right: 76px;
 }
 
 .nav-btn link{
-    display: flex;
-    gap: 40px;
     padding: 24px 0;
 }
 
-.address-cnt{
+.address-contacts{
     display: flex;
     gap: 40px;
 }
@@ -62,7 +56,8 @@ img{
      text-decoration: none
  }
 
-.logo {
+.header-logo,
+.footer-logo{
      font-family: "Raleway", sans-serif;
      font-size: 18px;
      font-weight: 800;
@@ -70,6 +65,7 @@ img{
      letter-spacing: 0.03em;
      color: var(--iris);
      text-transform: uppercase;
+     margin-right: 76px;
  }
 
 .studio-light {
@@ -80,11 +76,17 @@ img{
      color: var(--navy-blue)
  }
 
-.sct-hero{
-    background-color: var(--navy-blue);
+ .header-menu{
+    display: flex;
+    gap: 40px;
  }
 
-.sct-hero-title{
+.sct-two-hero{
+    background-color: var(--navy-blue);
+    padding: 188px 0;
+ }
+
+.sct-two-hero-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -92,7 +94,7 @@ img{
     color: var(--white);
  }
 
-.sct-hero-btn{
+.sct-two-hero-btn{
     background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -103,12 +105,12 @@ img{
     cursor: pointer;
  }
 
-.sct-hero-btn:hover,
-.sct-hero-btn:focus{
+.sct-two-hero-btn:hover,
+.sct-two-hero-btn:focus{
     background-color: var(--darkblue);
  }
 
-.sct-one-ttl{
+.sct-two-ttl{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -116,23 +118,10 @@ img{
     color: var(--navy-blue);
  }
 
-.sct-one-prgrf{
+.sct-two-prgrf{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
- }
-
-.sct-two-ttl{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--navy-blue);
- }
-
-.sct-three{
-    background-color: var(--prgrf); 
  }
 
 .sct-three-ttl{
@@ -144,7 +133,20 @@ img{
     color: var(--navy-blue);
  }
 
-.sct-three-list{
+.sct-four{
+    background-color: var(--prgrf); 
+ }
+
+.sct-four-ttl{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+ }
+
+.sct-four-list{
     background-color: var(--white);
  }
 
